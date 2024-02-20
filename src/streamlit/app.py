@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+
+import streamlit as st
+import pandas as pd
 st.title("""
 HOLA MUNDO
 hola hola hola
@@ -12,3 +15,9 @@ st.dataframe(df)
 
 for i in df.columns:
     df[i].plot(kind='hist')
+
+
+
+
+
+    st.bar_chart(df[i])
