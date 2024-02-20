@@ -13,11 +13,4 @@ st.markdown("*juan*")
 df = pd.read_csv('train.csv')
 st.dataframe(df)
 
-for i in df.columns:
-    df[i].plot(kind='hist')
-
-
-
-
-
-    st.bar_chart(df[i])
+st.bar_chart(df)
