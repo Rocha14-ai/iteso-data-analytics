@@ -6,9 +6,11 @@ HOLA MUNDO
 hola hola hola
 """)
 st.header("holi")
-st.markdown("*juan*")
+
 
 df = pd.read_csv('train.csv')
 st.dataframe(df)
 
 st.bar_chart(df['Age'])
+
+print(pd.DataFrame(df))
